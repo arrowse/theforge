@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://unpkg.com/@catppuccin/palette/css/catppuccin.css');
+
+
+body {
+    background-color: #11111B;
+    color: var(--ctp-mocha-text);
+    font-family: 'EB Garamond', serif;
+    overflow-x: clip;
+}
+
+button {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.4rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+p {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    margin-top: .5em;
+}
+
+article li {
+    font-size: 1.4em;
+    margin-top: .5em;
+}
+
+a {
+    color: var(--ctp-frappe-blue);
+    text-decoration: underline;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    margin-top: .5em;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+hr {
+    margin: 2em 0 2em 0;
+}
+
+.posts {
+    padding: 0.5em;
+}
+
+.title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.date {
+    font-size: 1em;
+    font-style: italic;
+}
+
+.description {
+    font-size: 1.5em;
+}
+
+.footer {
+    height: 10vh;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.mainContent {
+    height: 100vh;
+    max-width: 60em;
+    margin: 0 auto;
+}
+
+@media (min-width: 720px) {
+    .mainContent {
+        width: 80%;
+    }
+}
+
+.alogo {
+    width: 100%;
+    max-width: 9em;
+    margin: 4em 0 0 0;
+    clip-path: inset(15% 10% 10% 20%);
+    transform: translateX(-30px);
+}
+
+h1 {
+    margin: 0;
+}
+
+.no-animation * {
+    animation: none !important;
+    transition: none !important;
+}
+
+ul {
+    list-style: none inside none;
+    padding: 0;
+}
+
+
+.small-image {
+    max-width: 40em;
+}
+
+@media (min-width: 840px) {
+    .headertextcontainer h1 {
+        white-space: nowrap;
+    }
+
+}
+
+.footer {
+    height: 10vh;
+}

@@ -1,0 +1,271 @@
+.absolutegrid {
+    position: absolute;
+    top: 20%;
+!important;
+    inset: 0;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 200px));
+    grid-template-rows: repeat(auto-fit, minmax(200px, 300px));
+    overflow-x: clip;
+}
+
+.absolute {
+    position: absolute;
+    top: 20%;
+    inset: 0;
+    justify-content: center;
+    pointer-events: none;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.offset-top {
+    margin-top: 25%;
+}
+
+.bg-shape1 {
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    position: relative;
+    animation: one 20s infinite linear;
+}
+
+.bg-shape2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    position: relative;
+    animation: two 20s infinite;
+}
+
+.bg-shape3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    position: relative;
+    animation: three 20s infinite;
+}
+
+.bg-shape4 {
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    position: relative;
+    animation: four 20s infinite;
+}
+
+.bg-shape5 {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    position: relative;
+    animation: five 20s infinite;
+}
+
+.bg-shape6 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    position: relative;
+    animation: six 20s infinite;
+}
+
+@keyframes one {
+    0% {
+        left: 0;
+        top: 0;
+    }
+    20% {
+        left: 50px;
+        top: 30px;
+    }
+    40% {
+        left: -60px;
+        top: 70px;
+    }
+    60% {
+        left: 80px;
+        top: 50px;
+    }
+    80% {
+        left: -30px;
+        top: 90px;
+    }
+    100% {
+        left: 0;
+        top: 0;
+    }
+}
+
+@keyframes two {
+    0% {
+        left: 0;
+        top: 0;
+    }
+    25% {
+        left: 50px;
+        top: 10px;
+    }
+    50% {
+        left: 70px;
+        top: 50px;
+    }
+    75% {
+        left: -50px;
+        top: 200px;
+    }
+    100% {
+        left: 0;
+        top: 0;
+    }
+}
+
+@keyframes three {
+    0% {
+        left: 0;
+        top: 0;
+    }
+    25% {
+        left: -60px;
+        top: 5px;
+    }
+    50% {
+        left: 30px;
+        top: -40px;
+    }
+    75% {
+        left: -50px;
+        top: 200px;
+    }
+    100% {
+        left: 0;
+        top: 0;
+    }
+}
+
+@keyframes four {
+    0% {
+        left: 0;
+        top: 0;
+    }
+    25% {
+        left: -50px;
+        top: 200px;
+
+    }
+    50% {
+        left: 10px;
+        top: -40px;
+    }
+    75% {
+        left: -60px;
+        top: 5px;
+    }
+    100% {
+        left: 0;
+        top: 0;
+    }
+
+}
+
+@keyframes five {
+    0% {
+        left: 0;
+        top: 0;
+    }
+    25% {
+        left: 50px;
+        top: 10px;
+    }
+    50% {
+        left: 70px;
+        top: 50px;
+    }
+    75% {
+        left: -50px;
+        top: 200px;
+    }
+    100% {
+        left: 0;
+        top: 0;
+    }
+}
+
+@keyframes six {
+    0% {
+        left: 0;
+        top: 0;
+    }
+    25% {
+        left: -60px;
+        top: 5px;
+    }
+    50% {
+        left: 30px;
+        top: -40px;
+    }
+    75% {
+        left: -50px;
+        top: 200px;
+    }
+    100% {
+        left: 0;
+        top: 0;
+    }
+}
+
+.opacity-20 {
+    opacity: 0.2;
+}
+
+.bg-blur {
+    filter: blur(90px)
+}
+
+.bg-flamingo {
+    background-color: var(--ctp-frappe-flamingo);
+}
+
+.bg-mauve {
+    background-color: var(--ctp-frappe-mauve);
+}
+
+.bg-blue {
+    background-color: var(--ctp-frappe-blue);
+}
+
+.bg-green {
+    background-color: var(--ctp-frappe-green);
+}
+
+.bg-sapphire {
+    background-color: var(--ctp-frappe-sapphire);
+}
+
+.bg-sky {
+    background-color: var(--ctp-frappe-sky);
+}
+
+.bg-lavender {
+    background-color: var(--ctp-frappe-lavender);
+}
+
+.bg-yellow {
+    background-color: var(--ctp-frappe-yellow);
+}
+
+.bg-peach {
+    background-color: var(--ctp-frappe-peach);
+}
+
+.bg-maroon {
+    background-color: var(--ctp-frappe-maroon);
+}
+
+.bg-teal {
+    background-color: var(--ctp-frappe-teal);
+}
