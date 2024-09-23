@@ -4,20 +4,25 @@
 	import '$lib/styles/transitions.css';
 	import Nav from '$lib/components/Nav.svelte';
 
+	import { spring } from 'svelte/motion';
+	import Cursor from '$lib/components/Cursor.svelte';
+
+	let coords = spring(
+		{ x: 50, y: 50 },
+		{
+			stiffness: 0.075,
+			damping: 0.5
+		}
+	);
+
+	let size = spring(10);
 </script>
 
 <body>
 <div class="app">
 	<main>
-		<div class="nav">
 			<Nav />
-		</div>
 		<slot />
 	</main>
 </div>
 </body>
-<style>
-    .nav {
-        z-index: 2;
-    }
-</style>

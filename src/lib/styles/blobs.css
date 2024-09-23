@@ -1,7 +1,6 @@
 .absolutegrid {
     position: absolute;
     top: 20%;
-!important;
     inset: 0;
     justify-content: center;
     display: grid;
@@ -155,7 +154,6 @@
     25% {
         left: -50px;
         top: 200px;
-
     }
     50% {
         left: 10px;
@@ -169,7 +167,6 @@
         left: 0;
         top: 0;
     }
-
 }
 
 @keyframes five {
@@ -223,7 +220,7 @@
 }
 
 .bg-blur {
-    filter: blur(90px)
+    filter: blur(90px);
 }
 
 .bg-flamingo {

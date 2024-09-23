@@ -10,8 +10,9 @@
 	let animationsDisabled = '';
 	$: animationsDisabled = $fxCheck ? '' : 'no-animation';
 </script>
+
 <html lang="en">
-<div class="{animationsDisabled}">
+<div class={animationsDisabled}>
 	{#if $fxCheck === true}
 		<div class="absolute puff-in-ver">
 			<div class="absolutegrid justify-center">
@@ -27,13 +28,13 @@
 
 	<div class="mainContent">
 		<div class="page">
-			<img src={aimg} alt="a logo" class="alogo">
+			<img src={aimg} alt="a logo" class="alogo" />
 			<div class="headertextcontainer">
 				<h1 class="tracking-in-contract-bck-bottom">Autumn's Forge</h1>
 				<section>
 					<ul class="posts">
 						{#each data.weeks as week, i}
-							<li class="post fade-in-delay" style="--delay: {(i/10)+1.5}s;">
+							<li class="post fade-in-delay" style="--delay: {i / 10 + 1.5}s;">
 								<a href={week.slug} class="title">{week.title}</a>
 								<p class="description">{week.description}</p>
 							</li>
@@ -47,6 +48,6 @@
 	</div>
 </div>
 </html>
-<style>
 
+<style>
 </style>

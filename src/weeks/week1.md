@@ -4,6 +4,10 @@ description: Did I exist??
 published: true
 ---
 
+<script>
+import cobol from '$lib/images/cobol.gif';
+</script>
+
 ## Hi! I'm a very serious and professional developer...
 
 I write articles about windows being incompetent, covered my old family home in dumb
@@ -14,7 +18,7 @@ In a nutshell, I'm a very qualified and professional developer.. and I don't lik
 College courses instead, so I fear
 I am not _traditionally_ qualified for this course)
 
-![WTF is cobol](src/lib/images/cobol.gif)
+<img src={cobol} alt="wtf is cobol">
 
 ## I'm here now!
 

@@ -5,8 +5,8 @@
  * w: http://animista.net, t: @cssanimista
  * ---------------------------------------------- */
 .tracking-in-contract-bck-bottom {
-    -webkit-animation: tracking-in-contract-bck-bottom 1s cubic-bezier(.23, 1.000, .32, 1.000) 0.2s both;
-    animation: tracking-in-contract-bck-bottom 3s cubic-bezier(.23, 1.000, .32, 1.000) 0.2s both
+    -webkit-animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.23, 1, 0.32, 1) 0.2s both;
+    animation: tracking-in-contract-bck-bottom 3s cubic-bezier(0.23, 1, 0.32, 1) 0.2s both;
 }
 
 @-webkit-keyframes tracking-in-contract-bck-bottom {
@@ -14,15 +14,15 @@
         letter-spacing: 1em;
         -webkit-transform: translateZ(400px) translateY(300px);
         transform: translateZ(400px) translateY(300px);
-        opacity: 0
+        opacity: 0;
     }
     40% {
-        opacity: .6
+        opacity: 0.6;
     }
     100% {
         -webkit-transform: translateZ(0) translateY(0);
         transform: translateZ(0) translateY(0);
-        opacity: 1
+        opacity: 1;
     }
 }
 
@@ -31,21 +31,21 @@
         letter-spacing: 1em;
         -webkit-transform: translateZ(400px) translateY(300px);
         transform: translateZ(400px) translateY(300px);
-        opacity: 0
+        opacity: 0;
     }
     40% {
-        opacity: .6
+        opacity: 0.6;
     }
     100% {
         -webkit-transform: translateZ(0) translateY(0);
         transform: translateZ(0) translateY(0);
-        opacity: 1
+        opacity: 1;
     }
 }
 
 .scale-in-ver-bottom {
-    -webkit-animation: scale-in-ver-bottom .5s cubic-bezier(.25, .46, .45, .94) both;
-    animation: scale-in-ver-bottom .5s cubic-bezier(.25, .46, .45, .94) both
+    -webkit-animation: scale-in-ver-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: scale-in-ver-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 @-webkit-keyframes scale-in-ver-bottom {
@@ -54,14 +54,14 @@
         transform: scaleY(0);
         -webkit-transform-origin: 0 100%;
         transform-origin: 0 100%;
-        opacity: 1
+        opacity: 1;
     }
     100% {
         -webkit-transform: scaleY(1);
         transform: scaleY(1);
         -webkit-transform-origin: 0 100%;
         transform-origin: 0 100%;
-        opacity: 1
+        opacity: 1;
     }
 }
 
@@ -71,20 +71,20 @@
         transform: scaleY(0);
         -webkit-transform-origin: 0 100%;
         transform-origin: 0 100%;
-        opacity: 1
+        opacity: 1;
     }
     100% {
         -webkit-transform: scaleY(1);
         transform: scaleY(1);
         -webkit-transform-origin: 0 100%;
         transform-origin: 0 100%;
-        opacity: 1
+        opacity: 1;
     }
 }
 
 .puff-in-ver {
-    -webkit-animation: puff-in-ver 2s cubic-bezier(.785, .135, .15, .86) .7s both;
-    animation: puff-in-ver 2s cubic-bezier(.785, .135, .15, .86) .7s both
+    -webkit-animation: puff-in-ver 2s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.7s both;
+    animation: puff-in-ver 2s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.7s both;
 }
 
 @-webkit-keyframes puff-in-ver {
@@ -93,14 +93,14 @@
         transform: scaleY(2);
         -webkit-filter: blur(4px);
         filter: blur(4px);
-        opacity: 0
+        opacity: 0;
     }
     100% {
         -webkit-transform: scaleY(1);
         transform: scaleY(1);
         -webkit-filter: blur(0);
         filter: blur(0);
-        opacity: 1
+        opacity: 1;
     }
 }
 
@@ -110,20 +110,20 @@
         transform: scaleY(2);
         -webkit-filter: blur(4px);
         filter: blur(4px);
-        opacity: 0
+        opacity: 0;
     }
     100% {
         -webkit-transform: scaleY(1);
         transform: scaleY(1);
         -webkit-filter: blur(0);
         filter: blur(0);
-        opacity: 1
+        opacity: 1;
     }
 }
 
 .fade-in-delay {
-    -webkit-animation: fade-in 1s cubic-bezier(.39, .575, .565, 1) var(--delay) both;
-    animation: fade-in 1s cubic-bezier(.39, .575, .565, 1) var(--delay) both;
+    -webkit-animation: fade-in 1s cubic-bezier(0.39, 0.575, 0.565, 1) var(--delay) both;
+    animation: fade-in 1s cubic-bezier(0.39, 0.575, 0.565, 1) var(--delay) both;
 }
 
 @-webkit-keyframes fade-in {
@@ -145,24 +145,24 @@
 }
 
 .fade-in-delay-short {
-    -webkit-animation: fade-in 1s cubic-bezier(.39, .575, .565, 1) both;
-    animation: fade-in 1s cubic-bezier(.39, .575, .565, 1) both
+    -webkit-animation: fade-in 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: fade-in 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
 @-webkit-keyframes fade-in {
     0% {
-        opacity: 0
+        opacity: 0;
     }
     100% {
-        opacity: 1
+        opacity: 1;
     }
 }
 
 @keyframes fade-in {
     0% {
-        opacity: 0
+        opacity: 0;
     }
     100% {
-        opacity: 1
+        opacity: 1;
     }
 }

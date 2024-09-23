@@ -4,6 +4,7 @@
 	let toggleButtonState = '';
 	$: toggleButtonState = $fxCheck ? 'vfx-on' : 'vfx-off';
 </script>
+
 <div class="headerContainer">
 	<ul>
 		<li>
@@ -19,9 +20,12 @@
 
 	<div class="buttons">
 		<!--        <a href="https://autumn.onl">[main site]</a>-->
-		<button class={toggleButtonState} on:click={() => fxCheck.toggle()}>VFX: {$fxCheck ? 'ON' : 'OFF'}</button>
+		<button class={toggleButtonState} on:click={() => fxCheck.toggle()}
+		>VFX: {$fxCheck ? 'ON' : 'OFF'}</button
+		>
 	</div>
 </div>
+
 <style>
     ul {
         display: flex;
@@ -36,7 +40,7 @@
     a {
         font-size: 1.3em;
         text-decoration: none;
-        color: var(--ctp-frappe-Mauve)
+        color: var(--ctp-frappe-Mauve);
     }
 
     a:hover {
@@ -86,7 +90,6 @@
         color: var(--ctp-frappe-teal);
         border: 1px solid var(--ctp-frappe-teal);
     }
-
 
     .vfx-off {
         color: var(--ctp-frappe-text);
