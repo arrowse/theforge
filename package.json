@@ -27,6 +27,12 @@
   },
   "type": "module",
   "dependencies": {
+    "lucide-svelte": "^0.445.0",
+    "open-props": "^1.7.6",
+    "rehype-slug": "^6.0.0",
+    "remark": "^15.0.1",
+    "remark-images": "^4.1.0",
+    "remark-toc": "^9.0.0",
     "svelte-routing": "^2.12.0"
   }
 }
