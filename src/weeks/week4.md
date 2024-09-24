@@ -1,5 +1,5 @@
 ---
-title: Week 4 [WIP]
+title: Week 4
 description: How to break an industrial grade laser cutter in 6 easy steps
 published: true
 ---
@@ -16,3 +16,12 @@ and began cutting out a few test cubes to measure kerf and optimize the cut. At 
 we got the kerf down to 0.01mm, but weren't able to reproduce the settings which created it.
 
 [Video 1](https://photos.app.goo.gl/wo7Ns4ZwysUDQaQw7)
+
+We eventually got it close enough though, and started a cut session.
+
+The laser had other plans.
+
+About 3/4ths of the way through the cut, the laser started flickering, then
+cut out completely.
+
+So yeah, we cooked an industrial grade laser cutter today. How are you doing?
