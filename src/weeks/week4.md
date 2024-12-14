@@ -32,7 +32,7 @@ these steps in KiCad and MakeraCAM.
   parts you want to keep should be **black,** whitespace will be ignored / removed.
 * Use the "properties" tab, represented with the wrench and screwdriver from within the PCB editor to precisely align
   shapes
-* When exporting, make sure drilling is set to "absolute" (not Drill origin) and "millimeters" (not inches).9
+* When exporting, make sure drilling is set to "absolute" (not Drill origin) and "millimeters" (not inches).
 * Export gerber (.gbr) files to use in MakeraCAM.
 
 ## Preparing G-Code files
@@ -63,7 +63,6 @@ You'll handle these first, so here's how you start!
 skip steps 5-6 and follow step 7 to export your first of three jobs.**
 
 If you **don't** plan on adding a soldermask or silkscreen, you can drill vias (holes) and cut your board out here.
-z4
 
 5. Select the drl 0.800mm and drl 1mm files and add in drilling operations for each one with the corn bit, set the end
    depths according to
@@ -174,7 +173,7 @@ But one thing remains... At the beginning I promised to show all the ways things
 
 ## whoops (the series)
 
-1. Silkscreen was misaligned pads were only half scraped, and the drill holes were randomly out of place
+1. Silkscreen was misaligned, pads were only half scraped, and the drill holes were randomly out of place
 2. I forgot to remove the UV laser lens cap causing it to paint thick blotches rather than thin lines
 3. I remembered to take the cap off this time, but the silkscreen lines were still a bit thick. At this point, I didn't
    want to use too many resources, so I was content to solder it until Alisa decided to check our boards for shorts. It
@@ -206,4 +205,4 @@ facets of engineering!
 
 ### Post Script
 
-I botched the soldering job rip
+I botched the soldering job
