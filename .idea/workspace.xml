@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50a45f21-7ee0-45b7-b88f-8519ca403abf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/weeks/Week1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/weeks/week3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/styles/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/[slug]/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/[slug]/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/about/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/about/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/final/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/final/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weeks/week1.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/weeks/week4.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/weeks/week4.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weeks/week4update.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +149,7 @@
       <workItem from="1733261632647" duration="4498000" />
       <workItem from="1733780602786" duration="1365000" />
       <workItem from="1733784328809" duration="1792000" />
-      <workItem from="1733786136129" duration="24160000" />
+      <workItem from="1733786136129" duration="24180000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit wow">
       <option name="closed" value="true" />
@@ -289,7 +279,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727190848963</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="update articles">
+      <option name="closed" value="true" />
+      <created>1734151130810</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1734151130810</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

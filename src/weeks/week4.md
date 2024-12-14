@@ -200,8 +200,7 @@ But one thing remains... At the beginning I promised to show all the ways things
    to solder
 
 This has been a long two and a half week journey with friends, triumphs and loses, I'm so glad to have learned about
-this
-class and been given the opportunity to participate; I'm looking forward to sharing this journey with others and
+this class and been given the opportunity to participate; I'm looking forward to sharing this journey with others and
 discovering new
 facets of engineering!
 
