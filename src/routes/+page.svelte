@@ -10,7 +10,10 @@
 	let animationsDisabled = '';
 	$: animationsDisabled = $fxCheck ? '' : 'no-animation';
 </script>
-
+<svelte:head>
+	<title>Autumns's Forge</title>
+	<meta property="og:title" content="Autumn's Forge" />
+</svelte:head>
 <html lang="en">
 <div class={animationsDisabled}>
 	{#if $fxCheck === true}
@@ -50,4 +53,10 @@
 </html>
 
 <style>
+
+    ul {
+        list-style: none inside none;
+        padding: 0;
+    }
+
 </style>

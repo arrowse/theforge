@@ -44,6 +44,7 @@ a:hover {
 
 h1 {
 	font-size: 3em;
+	margin-left: 0;
 }
 
 h2 {
@@ -51,7 +52,8 @@ h2 {
 }
 
 h3 {
-	font-size: 2em;
+	font-size: 1.8em;
+	margin: 0.75em 0 0.75em;
 }
 
 hr {
@@ -111,11 +113,6 @@ h1 {
 .no-animation * {
 	animation: none !important;
 	transition: none !important;
-}
-
-ul {
-	list-style: none inside none;
-	padding: 0;
 }
 
 .small-image {

@@ -1,7 +1,10 @@
 <script lang="ts">
 	import { fxCheck } from '$lib/stores';
 </script>
-
+<svelte:head>
+	<title>About</title>
+	<meta property="og:title" content="About" />
+</svelte:head>
 {#if $fxCheck === true}
 	<div class="absolute">
 		<div class="absolutegrid justify-center">

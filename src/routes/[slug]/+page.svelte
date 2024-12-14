@@ -1,7 +1,8 @@
 <script lang="ts">
 	import { formatDate } from '$lib/utils';
-
+	import { fxCheck } from '$lib/stores';
 	export let data;
+	$: animationsDisabled = $fxCheck ? 'fade-in-delay' : 'no-animation';
 </script>
 
 <!-- SEO -->
@@ -19,7 +20,7 @@
 		</hgroup>
 
 		<!-- Post -->
-		<div class="prose fade-in-delay" style="--delay: {0.3}s;">
+		<div class="prose {animationsDisabled}" style="--delay: {0.3}s;">
 			<svelte:component this={data.content} />
 		</div>
 	</article>

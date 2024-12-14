@@ -4,6 +4,10 @@
 
 	export let data: PageData;
 </script>
+<svelte:head>
+	<title>Forge Final</title>
+	<meta property="og:title" content="Forge Final" />
+</svelte:head>
 {#if $fxCheck === true}
 	<div class="absolute">
 		<div class="absolutegrid justify-center">
