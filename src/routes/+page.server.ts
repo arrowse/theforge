@@ -5,3 +5,4 @@ export async function load({ fetch }) {
 	const weeks: Week[] = await response.json();
 	return { weeks };
 }
+

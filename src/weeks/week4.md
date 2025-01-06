@@ -178,7 +178,7 @@ But one thing remains... At the beginning I promised to show all the ways things
    want to use too many resources, so I was content to solder it until Alisa decided to check our boards for shorts. It
    was
    at this time that I learned _every board_ I had made up to this point was shorted to ground due to the drill not
-   cutting
+   cuttingz
    deep enough to disconnect the copper.
 4. I decided to use the right Carvera machine (--41). It ate my pads and drilled through the board. Whoops.
 5. I decided to use the same Carvera machine again but adjust the pad scrape settings. This did not fix the problem.

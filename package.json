@@ -1,5 +1,5 @@
 {
-	"name": "aumnapp",
+	"name": "A. Rose Forge",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
@@ -27,6 +27,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@sveltejs/adapter-auto": "^3.0.8",
 		"lucide-svelte": "^0.445.0",
 		"open-props": "^1.7.6",
 		"rehype-slug": "^6.0.0",
