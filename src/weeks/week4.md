@@ -168,6 +168,9 @@ through your pads even on low depth settings.** For this operation, make sure yo
 
 You should now be all set and ready to solder your parts on! Congrats!
 
+![Final board](https://lh3.googleusercontent.com/pw/AP1GczMUcjPiwhthprKA-EIosKDbTtnB9YTmdy14jGqinduMzPcNTtIBTFQHD9NMKToMZpULdSbA3W7A96ik9rq8pqekcD19mKHQpKHm0-h3RiuQHwhQxVhCEiFcFgrOQHwmF7D66122UF6QmMHMXfEO70tEjw=w1512-h850-s-no)
+![All boards](https://lh3.googleusercontent.com/pw/AP1GczOWSFJZUKM4u4x2gVDK0SH_g9dJiA55KUoV0kVzrvjDB_xvwFqG5Wmw_58UXvZY87jrYVZu9Ucky-VqfeSPdvy_QAFNZmiaWTJ6It2vi5SXzg214c0liEPvUowDcR9GUoEvsvjkvNQlAzYj9gCFtyssHw=w1512-h850-s-no)
+![Final Board with soldering displaying three LEDs powered on.](https://lh3.googleusercontent.com/pw/AP1GczOl50h5MJ8EY1vIYXCs-hGBxFFMz5CxpWmCKdDzCEXbk-gBjUGCOw-YTzRmTwdiWekjn5CLbsFpv77gelKBvTjV5tPTRkJOvoA_sKDneWo48SNMnumsmv5IrUY-H-aVSe3NTPo7F536EbmZ_4QQ5ayG6g=w1080-h1920-s-no)
 But one thing remains... At the beginning I promised to show all the ways things went wrong, so here they are.
 
 ## whoops (the series)
@@ -178,7 +181,7 @@ But one thing remains... At the beginning I promised to show all the ways things
    want to use too many resources, so I was content to solder it until Alisa decided to check our boards for shorts. It
    was
    at this time that I learned _every board_ I had made up to this point was shorted to ground due to the drill not
-   cuttingz
+   cutting
    deep enough to disconnect the copper.
 4. I decided to use the right Carvera machine (--41). It ate my pads and drilled through the board. Whoops.
 5. I decided to use the same Carvera machine again but adjust the pad scrape settings. This did not fix the problem.
