@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50a45f21-7ee0-45b7-b88f-8519ca403abf" name="Changes" comment="update articles">
+      <change afterPath="$PROJECT_DIR$/commitAndSync.bash" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weeks/week4.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/weeks/week4.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +167,7 @@
       <workItem from="1735007093185" duration="5536000" />
       <workItem from="1736104000587" duration="2719000" />
       <workItem from="1736106792790" duration="7062000" />
-      <workItem from="1736790624121" duration="1598000" />
+      <workItem from="1736790624121" duration="6513000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit wow">
       <option name="closed" value="true" />
