@@ -60,14 +60,14 @@ You'll handle these first, so here's how you start!
    depth to 0.2mm with the same 30° engraving tool to ensure only the top layer of copper is removed.
 
 **If you want to keep your board simple, follow steps 5-7 to finish preparing files! To add a soldermask and silkscreen,
-skip steps 5-6 and follow step 7 to export your first of three jobs.**
+skip step 6 and follow steps 5 & 7 to export your first of three jobs.**
 
 If you **don't** plan on adding a soldermask or silkscreen, you can drill vias (holes) and cut your board out here.
 
-5. Select the drl 0.800mm and drl 1mm files and add in drilling operations for each one with the corn bit, set the end
-   depths to 1.8 and enable ramping. Set a return / pull-back distance to about 0.2 mm to ensure a smooth drilling operation.
+5. Select your drill files and add in drilling operations for each one with the 0.8 corn bit, set the end
+   depths to 1.8 (the thickness of your board plus a tad bit extra) and enable ramping. Set a return / pull-back distance to about 0.2 mm to ensure a smooth drilling operation.
 
-6. Select the Edge_Cuts layer and add a new contour operation with the 30° engraving tool, set to 1.8mm, or a value
+6. Select the Edge_Cuts layer and add a new contour operation with the 0.8 corn bit, set to 1.8mm, or a value
    greater than the thickness of the
    copper plate you're using should you use a non-standard plate.
 
@@ -156,22 +156,23 @@ offset adjustments after to avoid misalignment carving your pads and edge cut!
 
 ### Last thing!
 
-Now that your soldermask and silkscreens are cured, wipe your board clean once again with isopropyl, and pull up
+Now that your soldermask and silkscreen are cured, wipe your board clean once again with isopropyl, and pull up
 MakeraCam.
-Create a new vector pocket operation with the pad scrape tool and set the end depth to 0.6-0.9mm to ensure just the
+Create a new vector pocket operation with the pad scrape tool and set the end depth to 0.3mm with ramping enabled to ensure just the
 paint
-is removed keeping the pads in-tact. While I mentioned this earlier in the article, I'm going to restate that the right
-Carvera machine in the IRL1 has issues with pressure sensitivity using the pad scrape tool, and has a tendency to *
-*drill
-through your pads even on low depth settings.** For this operation, make sure you're using the left machine ending in
-39.
-
+is removed keeping the pads in-tact.
 You should now be all set and ready to solder your parts on! Congrats!
 
 ![Final board](https://lh3.googleusercontent.com/pw/AP1GczMUcjPiwhthprKA-EIosKDbTtnB9YTmdy14jGqinduMzPcNTtIBTFQHD9NMKToMZpULdSbA3W7A96ik9rq8pqekcD19mKHQpKHm0-h3RiuQHwhQxVhCEiFcFgrOQHwmF7D66122UF6QmMHMXfEO70tEjw=w1512-h850-s-no)
 ![All boards](https://lh3.googleusercontent.com/pw/AP1GczOWSFJZUKM4u4x2gVDK0SH_g9dJiA55KUoV0kVzrvjDB_xvwFqG5Wmw_58UXvZY87jrYVZu9Ucky-VqfeSPdvy_QAFNZmiaWTJ6It2vi5SXzg214c0liEPvUowDcR9GUoEvsvjkvNQlAzYj9gCFtyssHw=w1512-h850-s-no)
 ![Final Board with soldering displaying three LEDs powered on.](https://lh3.googleusercontent.com/pw/AP1GczOl50h5MJ8EY1vIYXCs-hGBxFFMz5CxpWmCKdDzCEXbk-gBjUGCOw-YTzRmTwdiWekjn5CLbsFpv77gelKBvTjV5tPTRkJOvoA_sKDneWo48SNMnumsmv5IrUY-H-aVSe3NTPo7F536EbmZ_4QQ5ayG6g=w1080-h1920-s-no)
 But one thing remains... At the beginning I promised to show all the ways things went wrong, so here they are.
+
+## Random things to know about
+If you run into an error trying to drop a bit, it's because someone moved a bit into the slot it picked the last one up from. 
+Imagine your friend has a cup of coffee on a table, asks you to hold it for a second, and then makes the table vanish. Where do you put it?
+
+To fix this error, take the extra bit out of the slot it's trying to drop the original bit into, and then use the carvera controller to drop it.
 
 ## whoops (the series)
 
