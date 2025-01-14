@@ -1,6 +1,6 @@
 ---
-title: Week 4 - Switch PCB
-description: A complete guide to the Makera Carvera, MakeraCAM, and Carvera Controller.
+title: 1.4 - Switch PCB
+description: A guide to milling PCBs on the Carvera machines with MakeraCAM, and Carvera Controller
 published: true
 ---
 
@@ -65,7 +65,8 @@ skip step 6 and follow steps 5 & 7 to export your first of three jobs.**
 If you **don't** plan on adding a soldermask or silkscreen, you can drill vias (holes) and cut your board out here.
 
 5. Select your drill files and add in drilling operations for each one with the 0.8 corn bit, set the end
-   depths to 1.8 (the thickness of your board plus a tad bit extra) and enable ramping. Set a return / pull-back distance to about 0.2 mm to ensure a smooth drilling operation.
+   depths to 1.8 (the thickness of your board plus a tad bit extra) and enable ramping. Set a return / pull-back
+   distance to about 0.2 mm to ensure a smooth drilling operation.
 
 6. Select the Edge_Cuts layer and add a new contour operation with the 0.8 corn bit, set to 1.8mm, or a value
    greater than the thickness of the
@@ -156,23 +157,32 @@ offset adjustments after to avoid misalignment carving your pads and edge cut!
 
 ### Last thing!
 
-Now that your soldermask and silkscreen are cured, wipe your board clean once again with isopropyl, and pull up
+Now that your soldermask and silkscreen z
+|re cured, wipe your board clean once again with isopropyl, and pull up
 MakeraCam.
-Create a new vector pocket operation with the pad scrape tool and set the end depth to 0.3mm with ramping enabled to ensure just the
+Create a new vector pocket operation with the pad scrape tool and set the end depth to 0.3mm with ramping enabled to
+ensure just the
 paint
 is removed keeping the pads in-tact.
-You should now be all set and ready to solder your parts on! Congrats!
+You should now be all set and ready to solder your parts on! Congrats! 
 
-![Final board](https://lh3.googleusercontent.com/pw/AP1GczMUcjPiwhthprKA-EIosKDbTtnB9YTmdy14jGqinduMzPcNTtIBTFQHD9NMKToMZpULdSbA3W7A96ik9rq8pqekcD19mKHQpKHm0-h3RiuQHwhQxVhCEiFcFgrOQHwmF7D66122UF6QmMHMXfEO70tEjw=w1512-h850-s-no)
-![All boards](https://lh3.googleusercontent.com/pw/AP1GczOWSFJZUKM4u4x2gVDK0SH_g9dJiA55KUoV0kVzrvjDB_xvwFqG5Wmw_58UXvZY87jrYVZu9Ucky-VqfeSPdvy_QAFNZmiaWTJ6It2vi5SXzg214c0liEPvUowDcR9GUoEvsvjkvNQlAzYj9gCFtyssHw=w1512-h850-s-no)
+**I cover soldering in the [Step Response PCB article posted after this one](/week5), if you'd like
+to learn about that feel free to give it a read!**
+
+![Final board photo](https://lh3.googleusercontent.com/pw/AP1GczMUcjPiwhthprKA-EIosKDbTtnB9YTmdy14jGqinduMzPcNTtIBTFQHD9NMKToMZpULdSbA3W7A96ik9rq8pqekcD19mKHQpKHm0-h3RiuQHwhQxVhCEiFcFgrOQHwmF7D66122UF6QmMHMXfEO70tEjw=w1512-h850-s-no)
+![Photo of All boards](https://lh3.googleusercontent.com/pw/AP1GczOWSFJZUKM4u4x2gVDK0SH_g9dJiA55KUoV0kVzrvjDB_xvwFqG5Wmw_58UXvZY87jrYVZu9Ucky-VqfeSPdvy_QAFNZmiaWTJ6It2vi5SXzg214c0liEPvUowDcR9GUoEvsvjkvNQlAzYj9gCFtyssHw=w1512-h850-s-no)
 ![Final Board with soldering displaying three LEDs powered on.](https://lh3.googleusercontent.com/pw/AP1GczOl50h5MJ8EY1vIYXCs-hGBxFFMz5CxpWmCKdDzCEXbk-gBjUGCOw-YTzRmTwdiWekjn5CLbsFpv77gelKBvTjV5tPTRkJOvoA_sKDneWo48SNMnumsmv5IrUY-H-aVSe3NTPo7F536EbmZ_4QQ5ayG6g=w1080-h1920-s-no)
 But one thing remains... At the beginning I promised to show all the ways things went wrong, so here they are.
 
 ## Random things to know about
-If you run into an error trying to drop a bit, it's because someone moved a bit into the slot it picked the last one up from. 
-Imagine your friend has a cup of coffee on a table, asks you to hold it for a second, and then makes the table vanish. Where do you put it?
 
-To fix this error, take the extra bit out of the slot it's trying to drop the original bit into, and then use the carvera controller to drop it.
+If you run into an error trying to drop a bit, it's because the Carvera thinks the slot it's trying to drop a bit into
+is already taken.
+Imagine your friend has a cup of coffee on a table, asks you to hold it for a second, and then makes the table vanish.
+Where do you put it?
+
+To fix this error, take the extra bit out of the slot it's trying to drop the original bit into, and then use the
+Carvera controller to drop it by selecting the tool at the top of the menu, then drop.
 
 ## whoops (the series)
 

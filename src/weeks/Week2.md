@@ -1,7 +1,7 @@
 ---
-title: Week 2 - Cable router
+title: 1.2 - Cable router
 description: Intro to FreeCAD and snap fit designs
 published: false
 ---
 
-## womp
+WIP - Check back soon

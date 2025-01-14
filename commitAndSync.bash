@@ -1,5 +1,5 @@
 echo -e "\e[1;45m Welcome to the Froge commit tool.\e[0m"
-read -r -p "Would you like to automatically commit your changes? [y/N] " response
+read -r -p "Would you like to commit your changes? [y/N] " response
 if [[ "$response" =~ [yY](es)* ]]
 then
     echo -e "\e[1;46m Committing changes... \e[0m"

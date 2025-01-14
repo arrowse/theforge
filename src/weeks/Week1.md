@@ -1,5 +1,5 @@
 ---
-title: Week 1 - Arrival
+title: 1.1 - Arrival
 description: SvelteKit markdown blog creation and a brief introduction
 published: true
 ---
