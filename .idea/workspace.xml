@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50a45f21-7ee0-45b7-b88f-8519ca403abf" name="Changes" comment="update articles">
-      <change afterPath="$PROJECT_DIR$/src/weeks/week5.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/weeks/weekq2.1.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/commitAndSync.bash" beforeDir="false" afterPath="$PROJECT_DIR$/commitAndSync.bash" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weeks/Q2W1.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weeks/Week1.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/weeks/Week1.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/weeks/Week2.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/weeks/Week2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weeks/week4.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/weeks/week4.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/weeks/week5.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/weeks/week5.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/weeks/weekq2.1.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/weeks/weekq2.1.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +173,7 @@
       <workItem from="1736790624121" duration="6923000" />
       <workItem from="1736826795048" duration="1634000" />
       <workItem from="1736882933032" duration="1884000" />
-      <workItem from="1736886810497" duration="2057000" />
+      <workItem from="1736886810497" duration="2320000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit wow">
       <option name="closed" value="true" />

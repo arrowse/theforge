@@ -10,5 +10,5 @@ fi
 echo -e "\e[1;42m Preparing to sync Git repositories \e[0m"
 ssh-add ~/.ssh/afiskforge
 git push origin
-git push 
+git push cloud
 echo -e "\e[1;41m You're all set! \e[0m"

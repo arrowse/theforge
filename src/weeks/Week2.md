@@ -1,7 +1,7 @@
 ---
 title: 1.2 - Cable router
 description: Intro to FreeCAD and snap fit designs
-published: false
+published: true
 ---
 
 WIP - Check back soon

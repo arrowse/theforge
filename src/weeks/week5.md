@@ -1,7 +1,7 @@
 ---
 title: 1.5 - Step Response PCB
 description: Touchpads with pressure sensitivity... sort of- KiCad, MakeraCAM, and Soldering
-published: false
+published: true
 ---
 
 WIP - Check back soon!
