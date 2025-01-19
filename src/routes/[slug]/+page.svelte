@@ -3,6 +3,7 @@
 	import { fxCheck } from '$lib/stores';
 	export let data;
 	$: animationsDisabled = $fxCheck ? 'fade-in-delay' : 'no-animation';
+	import aimg from '$lib/images/a.png';
 </script>
 
 <!-- SEO -->
@@ -23,7 +24,9 @@
 		<div class="prose {animationsDisabled}" style="--delay: {0.3}s;">
 			<svelte:component this={data.content} />
 		</div>
-		<div class="footer" />
+		<div class="footer">
+			<a href="/"><img src={aimg} alt="Autumn logo" class="footericon"></a>
+		</div>
 	</article>
 </div>
 
@@ -41,6 +44,16 @@
         color: var(--ctp-mocha-z);
         margin-top: 2em;
     }
+		.footericon {
+				margin: 0;
+				height: 85px;
+				filter: grayscale(55%);
+        -webkit-filter: grayscale(55%);
+		}
+		.footericon:hover {
+				filter: grayscale(0);
+				-webkit-filter: grayscale(0);
+		}
 
     h1 + p {
         margin-top: var(--size-2);

@@ -80,8 +80,8 @@ hr {
 
 .footer {
 	height: 10vh;
+	border-top: 5px dotted #494d64;
 }
-
 a:hover {
 	text-decoration: underline;
 }

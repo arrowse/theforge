@@ -1,5 +1,10 @@
 <script lang="ts">
 	import { fxCheck } from '$lib/stores';
+	import arosebutton from '$lib/images/arose.png'
+	import firefox from '$lib/images/firefox.gif'
+	import vim from '$lib/images/vim.gif'
+	import linux from '$lib/images/linux.gif'
+	import network from '$lib/images/network.gif'
 </script>
 <svelte:head>
 	<title>About</title>
@@ -38,17 +43,32 @@
 				<br /> <br /> The markdown blog component of this website was built following
 				<a href="https://joyofcode.xyz/sveltekit-markdown-blog"> this tutorial</a>
 			</p>
+		<div class="footer">
+			<div class="center">
+		<a href="https://www.autumn.onl" target="_blank"><img src={arosebutton} class="button" alt="arose website 88x31 button"></a>
+			<img src={firefox} alt="firefox button" class="button"><img src={linux} class="button" alt="linux button"><img src={vim} class="button" alt="vim button"><img src={network} class="button" alt="network button">
+			</div>
+		</div>
 		</div>
 	</div>
 </div>
 
 <style>
     .mainContent {
-        height: 100vh;
         max-width: 60em;
-        margin: 8em auto;
+        margin: 8em auto 0 auto;
     }
+		.center {
+				display:flex;
+				justify-content: center;
+		}
+		.footer {
+				margin-top: 2.5em;
+		}
 
+		.button {
+				width: 100px;
+		}
     a {
         color: var(--ctp-mocha-);
     }
