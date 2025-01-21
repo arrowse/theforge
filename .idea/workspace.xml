@@ -8,9 +8,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/styles/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/[slug]/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/[slug]/+page.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/about/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/about/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/final/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/final/+page.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/weeks/Week2.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/weeks/Week2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/weeks/weekq2.1.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/weeks/weekq2.1.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +55,9 @@
     &quot;accountId&quot;: &quot;f87c619c-cb69-424f-8401-197f39768d93&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/node_modules/svelte/elements.d.ts" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -128,7 +132,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.format" />
-        <item itemvalue="npm.format" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +180,8 @@
       <workItem from="1736886810497" duration="7603000" />
       <workItem from="1737073787411" duration="13235000" />
       <workItem from="1737322750406" duration="4578000" />
+      <workItem from="1737430920332" duration="1643000" />
+      <workItem from="1737435681367" duration="4794000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit wow">
       <option name="closed" value="true" />

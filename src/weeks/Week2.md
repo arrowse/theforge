@@ -29,7 +29,7 @@ Make them more not unorganized anymore. Er- less unorganized.
 
 ![Cable router final result](https://lh3.googleusercontent.com/pw/AP1GczN3QiuHNcOECppk7fyn5zUTJP-YFVfWAlRePXvh5oH2_cJ9zmQyxFplI6y5RSMe_Ud5xtuknEPoJwQNhCmh9obrFuxYG0jFzW-gk-4jCrpC9GMMfIWn5WXSqF0ls6JbI_Ht9ts2M9balI7gaWpV_7wDLg=w1190-h670-s-no)
 
-How does it work? First, it's custom fit to the desks _at DePaul_, so no glues or adhesives are needed. Next, to stop
+How does it work? First, its custom fit to the desks _at DePaul_, so no glues or adhesives are needed. Next, to stop
 cables from
 free-falling, a small constraint (either the top bar in the first version or U bar in the later models) allows for
 cables to flow freely while stopping them at the ends. It also snaps into place, so you can change cables with ease.
@@ -48,7 +48,8 @@ measurements and fix it later' I ended up with more fixing and less doing. So, h
 
 
 **Second Design**
-Cables don't fit and it can't fit on the desk so.. uh.. just make the whole thing bigger?
+
+Cables don't fit, and it can't fit on the desk so.. uh.. just make the whole thing bigger?
 
 ![First and second router models](https://lh3.googleusercontent.com/pw/AP1GczNGm7tIfaYFIFX8NOJDHiEYISLnknZJvEjfHmYz8D9gZcPRaUyRcgLhBAArJAg1zplOSJfkWyPIpYbUfAorlI7ga1ti9J3U_AqmlmGDxtLhcjmlEjaxTnI_Z9Rr2urAu_8xMRwjg1E-8js8Nr541kRWHQ=w1260-h708-s-no)
 

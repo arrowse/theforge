@@ -24,7 +24,7 @@
 <div class="mainContent">
 	<div class="page">
 		<div class="headertextcontainer">
-			<h1 class="">Q1 Final Project:</h1>
+			<h1 class="">Final Project:</h1>
 			<h3><strike>Extremly</strike> Averagely loud incorrect buzzer</h3>
 
 			<p>I'll update this as soon as I can, for now, please keep tabs on the Home page.</p>
@@ -32,8 +32,6 @@
 		<ul>
 			<li>
 		</ul>
-		<div class="footer" />
-		<!--        <h2>Random things I made for fun</h2>-->
 	</div>
 </div>
 

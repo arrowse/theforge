@@ -33,7 +33,7 @@
 		<div class="page">
 			<img src={aimg} alt="a logo" class="alogo" />
 			<div class="headertextcontainer">
-				<h1 class="tracking-in-contract-bck-bottom">Autumn's Forge</h1>
+				<h1 class="tracking-in-contract-bck-bottom nowrap">Autumn's Forge</h1>
 				<section>
 					<ul class="posts">
 						{#each data.weeks as week, i}
@@ -45,7 +45,9 @@
 					</ul>
 				</section>
 			</div>
-
+			<br/>
+			<br/>
+			<br/>
 		</div>
 	</div>
 </div>
@@ -57,5 +59,9 @@
         list-style: none inside none;
         padding: 0;
     }
+
+		.nowrap {
+				text-wrap: nowrap;
+		}
 
 </style>

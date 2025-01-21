@@ -35,22 +35,19 @@
 				my work <a href="https://autumn.onl">here!</a>
 			</p>
 			<p>
-				Don't let me within 400 feet of a compiler, or Windows for that matter...
-				<br /><br />CSS animations were created using a generator called
-				<a href="https://animista.net/">Animista.</a>
+				CSS animations were created using the
+				<a href="https://animista.net/">Animista</a> tool.
 				<br /> <br />The color pallet is called Catppuccin, you can
 				<a href="https://catppuccin.com/">learn more about it here.</a>
 				<br /> <br /> The markdown blog component of this website was built following
-				<a href="https://joyofcode.xyz/sveltekit-markdown-blog"> this tutorial</a>
+				<a href="https://joyofcode.xyz/sveltekit-markdown-blog"> this tutorial</a> by Joy of Code.
 			</p>
-		<div class="footer">
 			<div class="center">
 		<a href="https://www.autumn.onl" target="_blank"><img src={arosebutton} class="button" alt="arose website 88x31 button"></a>
 			<img src={firefox} alt="firefox button" class="button"><img src={linux} class="button" alt="linux button"><img src={vim} class="button" alt="vim button"><img src={network} class="button" alt="network button">
 			</div>
 		</div>
 		</div>
-	</div>
 </div>
 
 <style>
@@ -61,9 +58,6 @@
 		.center {
 				display:flex;
 				justify-content: center;
-		}
-		.footer {
-				margin-top: 2.5em;
 		}
 
 		.button {
