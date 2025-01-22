@@ -13,11 +13,11 @@ to organize our shoes and records in one go. Here's how that went!
 ![Initial Sketch](https://lh3.googleusercontent.com/pw/AP1GczP6v2wKb6YQ41SIyKmiGOK_XHiBi5BT8PhaqEnmwa76MqH8wQQizem0Piasuz9M_R3QtuVYCJJFCs8-3_za2BRFo_JYuySXsQYueNzTf-NaK0mviGpimlfwttXrhd9rnSOCEgPyFvQQQyO5ATo04ivLZA=w1272-h1272-s-no)
 
 Starting off I was a bit too confident with estimated dimensions which resulted in the shelf being a little too large...
-A lesson learned the hard way is a lesson never forgotten
+A lesson learned the hard way...
 
 ![Extra large record shelf](https://lh3.googleusercontent.com/pw/AP1GczMXioodO-DNXSwntlGfGLMO8wATz8oduRPssjyM6ckyAnFybdeZq2aSHYdX_3bQxaoVy0UCEiTYt5IxnKIL_DXnohDnn8EEf9qkEoZevPku49H8WUTGsBx8Rx3T40mlSk4oveazLdVzYVob3w0j6pg60g=w1330-h748-s-no)
 
-Starting a second try, I asked my roommate asking to measure the space we had available, then worked in
+Starting a second try, I asked my roommate to measure the space we had available, then worked in
 CAD to create sketches from there.
 
 ![Cad montage](https://lh3.googleusercontent.com/pw/AP1GczNhUHkG1MWfIBQ8bGr5ovCXfqUwpo2WTnIyWhbkrt4xxuHp_Sr63qQOxvkwTEzs7FmTXgNZU4NizM6AcsmCJj-q32dUWmlJE8-kKDlMv7i1hrDtOZUOViTZAAcyikwjkK_7Bsam3KGkrjiVg7A7wpxDog=w600-h338-s-no)

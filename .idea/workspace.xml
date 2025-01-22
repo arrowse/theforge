@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50a45f21-7ee0-45b7-b88f-8519ca403abf" name="Changes" comment="update articles">
-      <change afterPath="$PROJECT_DIR$/static/commitAndSync.bash" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/compressImages.bash" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commitAndSync.bash" beforeDir="false" afterPath="$PROJECT_DIR$/commitAndSync.bash" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compressImages.bash" beforeDir="false" afterPath="$PROJECT_DIR$/compressImages.bash" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/about/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/about/+page.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/weeks/Week2.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/weeks/Week2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weeks/week5.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/weeks/week5.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weeks/weekq2.1.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/weeks/weekq2.1.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +180,7 @@
       <workItem from="1737430920332" duration="1643000" />
       <workItem from="1737435681367" duration="4832000" />
       <workItem from="1737488828455" duration="5960000" />
-      <workItem from="1737494916096" duration="9299000" />
+      <workItem from="1737494916096" duration="9965000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit wow">
       <option name="closed" value="true" />

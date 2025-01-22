@@ -14,7 +14,7 @@ Cable management, the art of things looking neat and organized... at least from 
 
 Starting at DePaul, being the battery operated thing enjoyer
 that I am, it became painfully clear that having cables out of sight would be quite inconvenient, after unplugging them
-gravity would take a toll and once again I had to venture downwards to retrieve the saviour of my devices.
+gravity would take a toll and I'd need to pick them up off the floor...
 
 Until...
 
