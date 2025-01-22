@@ -46,6 +46,7 @@ measurements and fix it later' I ended up with more fixing and less doing. So, h
 2. Add holes for cables off the back side of it
 5. Add a bar with tabs to hold cables from the top so they don't just fall down
 
+![First design CAD](https://lh3.googleusercontent.com/pw/AP1GczP58lE7lNJPTx4TxB61tXggQ0EBN7QxiDxpHpVaBzUjsqZEBkMK7D3bmGLAHeTbKOr6BUTqeDDDqvP-Bb9YR9kj86fbzSOGU4iA3ot4xqe75XohtIn9cYCMOsOfAxShAtCThXdjG3HInVM-VEMY1eG7gQ=w800-h450-s-no)
 
 **Second Design**
 
@@ -65,6 +66,8 @@ that did not in fact work so.. Redesign time!
 2. Add a routed square hole to run cables through
 3. Add two tabs on either side of the router to allow a snap fit cover to hold cables in place
 5. Make a very stretched out 'U' bar with two short cylindrical tabs to fit the router base
+
+![Final design CAD](https://lh3.googleusercontent.com/pw/AP1GczMARlN6Txc3bUhOV_L_ZQx7ZeIjNco0CLzD4Px71nYn2eCuxqpXF7JxuBKc-ccyrTBTxWZFgf1B2aePKAEuMZI5rBkgk8b1UACXT1SEYNMHbXw1h-CXTUPtrV15aI1g6wFrVCXwM8EA5WI6yv7BnLXpaw=w800-h450-s-no)
 
 boom.
 
