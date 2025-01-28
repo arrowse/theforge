@@ -1,7 +1,7 @@
 ---
 title: 2.2 - Professor Cube
 description: Turning the professor's head into an ice cube (with wax molding and casting)
-published: true
+published: false
 ---
 
 You've seen the david discord emote. It's great. We love it.

@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50a45f21-7ee0-45b7-b88f-8519ca403abf" name="Changes" comment="update articles">
-      <change afterPath="$PROJECT_DIR$/src/weeks/weekq2.2.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compressImages.bash" beforeDir="false" afterPath="$PROJECT_DIR$/compressImages.bash" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/about/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/about/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weeks/week4.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/weeks/week4.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/compressImages.bash" beforeDir="false" afterPath="$PROJECT_DIR$/static/compressImages.bash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/weeks/weekq2.2.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/weeks/weekq2.2.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +185,7 @@
       <workItem from="1737677737311" duration="4337000" />
       <workItem from="1737848519652" duration="2204000" />
       <workItem from="1737852063566" duration="149000" />
-      <workItem from="1738042964105" duration="348000" />
+      <workItem from="1738042964105" duration="1119000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit wow">
       <option name="closed" value="true" />
