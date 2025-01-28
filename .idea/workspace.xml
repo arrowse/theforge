@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50a45f21-7ee0-45b7-b88f-8519ca403abf" name="Changes" comment="update articles">
+      <change afterPath="$PROJECT_DIR$/src/weeks/weekq2.2.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weeks/Week2.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/weeks/Week2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compressImages.bash" beforeDir="false" afterPath="$PROJECT_DIR$/compressImages.bash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/about/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/about/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/weeks/week4.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/weeks/week4.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/compressImages.bash" beforeDir="false" afterPath="$PROJECT_DIR$/static/compressImages.bash" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,23 +69,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "/home/ari/WebstormProjects/theforge/static",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "pnpm",
-    "npm.dev.executor": "Run",
-    "npm.format.executor": "Run",
-    "prettierjs.PrettierConfiguration.Package": "/home/ari/WebstormProjects/theforge/node_modules/prettier",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.gitlab.GitLabSettingsConfigurable",
-    "ts.external.directory.path": "/home/ari/WebstormProjects/theforge/node_modules/typescript/lib"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ari/WebstormProjects/atrium&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.format.executor&quot;: &quot;Run&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/home/ari/WebstormProjects/theforge/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.gitlab.GitLabSettingsConfigurable&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/ari/WebstormProjects/theforge/node_modules/typescript/lib&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static" />
@@ -90,8 +94,8 @@
       <recent name="$PROJECT_DIR$/src/lib/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/lib/images" />
     </key>
@@ -180,7 +184,12 @@
       <workItem from="1737430920332" duration="1643000" />
       <workItem from="1737435681367" duration="4832000" />
       <workItem from="1737488828455" duration="5960000" />
-      <workItem from="1737494916096" duration="9965000" />
+      <workItem from="1737494916096" duration="35976000" />
+      <workItem from="1737596524186" duration="7170000" />
+      <workItem from="1737677737311" duration="4337000" />
+      <workItem from="1737848519652" duration="2204000" />
+      <workItem from="1737852063566" duration="149000" />
+      <workItem from="1738042964105" duration="348000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit wow">
       <option name="closed" value="true" />

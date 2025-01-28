@@ -157,13 +157,12 @@ offset adjustments after to avoid misalignment carving your pads and edge cut!
 
 ### Last thing!
 
-Now that your soldermask and silkscreen z
-|re cured, wipe your board clean once again with isopropyl, and pull up
+Now that your soldermask and silkscreen are cured, wipe your board clean once again with isopropyl, and pull up
 MakeraCam.
 Create a new vector pocket operation with the pad scrape tool and set the end depth to 0.3mm with ramping enabled to
 ensure just the
 paint
-is removed keeping the pads in-tact.
+is removed keeping the pads in-tact. **DOUBLE-CHECK YOUR STEP DISTANCES TO MAKE SURE IT IS LESS THAN OR EQUAL TO .3!**
 You should now be all set and ready to solder your parts on! Congrats! 
 
 **I cover soldering in the [Step Response PCB article posted after this one](/week5), if you'd like

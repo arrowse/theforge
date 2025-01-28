@@ -49,6 +49,8 @@
 			<p><a href="/compressImages.bash" download>Web media compression tool</a> - A bash script that automatically compresses your media files and converts them from any format to .webp, a highly optimized web format. Make sure your images and videos are in a folder titled /images and let the script do the rest! Just <b>make sure to add /imagesUncompressed to your .gitignore</b>.
 			<p><a href="/commitAndSync.bash" download>Dual repository commit tool</a> - A bash script for pushing one repository to multiple remotes, helpful for hosting a dynamic site on cloudflare through a GitHub repository while also keeping your forge GitLab up to date. <b>Don't forget to replace the .ssh/ keyfile with your own and add the name of your GitHub remotes!</b>
 			</p>
+			<h3>Forge Manifesto</h3>
+			<p>We work? Always. Documentation? At least two weeks behind. Our projects work? Sometimes. We sleep? Never. Caffeinate. Reach hour 16 at the IRL and ascend to another dimension. True meaning comes from pursuing the absurd. We will go beyond the 5th dimension of ice cube tray geometry and bring fusion to it's knees rendering 1.1 million polygons of David. This is the best class you'll ever take, days in the lab feel like seconds. Cherish it, love it, and stay creative.</p>
 
 			<div class="center">
 		<a href="https://www.autumn.onl" target="_blank"><img src={arosebutton} class="button" alt="arose website 88x31 button"></a>

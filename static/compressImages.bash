@@ -26,10 +26,11 @@ if [[ "$installed" == false ]]; then
   echo "Please install FFmpeg (https://www.ffmpeg.org/download.html) before running this script."
   exit 1
 fi
-read -r -p "Please enter the directory path where your images folder is located. (eg, ./src, use .. for current directory)  " imagesPath
-pathFormated=$(pwd imagesPath)
+read -r -p "Please enter the directory path where your images folder is located. (eg, ./src, use . for current directory)  " imagesPath
+cd "$imagesPath" || exit 1
+pathFormated=$(pwd) 
 echo -e "\e[1;46m Checking files in $pathFormated \e[0m"
-if test -d "$pathFormated/images "; then
+if ! test -d "$pathFormated/images"; then
   echo -e "\e[1;43m Couldn't find a /images directory at that location \e[0m"
   exit 1
   fi
