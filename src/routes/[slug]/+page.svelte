@@ -1,9 +1,18 @@
 <script lang="ts">
 	import { formatDate } from '$lib/utils';
 	import { fxCheck } from '$lib/stores';
+
 	export let data;
 	$: animationsDisabled = $fxCheck ? 'fade-in-delay' : 'no-animation';
 	import aimg from '$lib/images/a.png';
+	import { fly, fade } from 'svelte/transition';
+	import { onMount } from 'svelte';
+
+	$: show = false;
+
+	onMount(() => {
+		show=true;
+	})
 </script>
 
 <!-- SEO -->
@@ -15,18 +24,25 @@
 
 <div class="mainContent">
 	<article>
-		<!-- Title -->
-		<hgroup>
-			<h1 class="headertext">{data.meta.title}</h1>
-		</hgroup>
+		{#if show}
+		<div in:fly={{y: 8, duration:500}}>
+				{#key data.url}
 
+			<!-- Title -->
+			<hgroup in:fade={{duration:500, delay: 400}} out:fade={{ duration:250, delay:200}}>
+				<h1 class="headertext">{data.meta.title}</h1>
+			</hgroup>
 		<!-- Post -->
-		<div class="prose {animationsDisabled}" style="--delay: {0.3}s;">
-			<svelte:component this={data.content} />
+				<div style="--delay: {0.3}s;" in:fly={{y: 10, duration:500, delay: 500}}
+						 out:fly={{y:10, duration:200, delay: 200}}>
+					<svelte:component this={data.content} />
+				</div>
+				<div class="footer">
+					<a href="/"><img src={aimg} alt="Autumn logo" class="footericon"></a>
+				</div>
+				{/key}
 		</div>
-		<div class="footer">
-			<a href="/"><img src={aimg} alt="Autumn logo" class="footericon"></a>
-		</div>
+		{/if}
 	</article>
 </div>
 
@@ -44,16 +60,18 @@
         color: var(--ctp-mocha-z);
         margin-top: 2em;
     }
-		.footericon {
-				margin: 0;
-				height: 85px;
-				filter: grayscale(55%);
+
+    .footericon {
+        margin: 0;
+        height: 85px;
+        filter: grayscale(55%);
         -webkit-filter: grayscale(55%);
-		}
-		.footericon:hover {
-				filter: grayscale(0);
-				-webkit-filter: grayscale(0);
-		}
+    }
+
+    .footericon:hover {
+        filter: grayscale(0);
+        -webkit-filter: grayscale(0);
+    }
 
     h1 + p {
         margin-top: var(--size-2);

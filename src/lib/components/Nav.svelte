@@ -53,7 +53,7 @@
         align-items: center;
         padding: 1rem;
         background-color: var(--ctp-frappe-White);
-        max-width: 60em;
+        max-width: 50em;
         width: 80%;
         margin: 0 auto;
     }

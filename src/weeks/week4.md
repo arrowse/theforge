@@ -57,7 +57,7 @@ You'll handle these first, so here's how you start!
 ![Vector cut dropdown](https://lh3.googleusercontent.com/pw/AP1GczOIHkpVCmRKSH_fwlSwv_VF6FZ7DZB_Y3FFpSnSfPa3dkgZa1B9ME9j5Fz_ciwEAEml5wk54FNfpe-KTscDb76M12ZOs5QvizyuRaC15-hQhnD8dkvx-hHZin6ahWS5r83vkm9xO55HMsEFtRh7pcOnOQ=w1370-h778-s-no)
 
 4. To set up pads, select the F_cu.gbr_pad layer and add a vector pocket operation from the same menu, then set the end
-   depth to 0.2mm with the same 30° engraving tool to ensure only the top layer of copper is removed.
+   depth to 0.2mm with the same 30° engraving tool to ensure only the top layer of copper is removed. <u>Do not enable ramping!</u>
 
 **If you want to keep your board simple, follow steps 5-7 to finish preparing files! To add a soldermask and silkscreen,
 skip step 6 and follow steps 5 & 7 to export your first of three jobs.**
@@ -159,7 +159,7 @@ offset adjustments after to avoid misalignment carving your pads and edge cut!
 
 Now that your soldermask and silkscreen are cured, wipe your board clean once again with isopropyl, and pull up
 MakeraCam.
-Create a new vector pocket operation with the pad scrape tool and set the end depth to 0.3mm with ramping enabled to
+Create a new vector pocket operation with the pad scrape tool and set the end depth to 0.04mm with ramping enabled to
 ensure just the
 paint
 is removed keeping the pads in-tact. **DOUBLE-CHECK YOUR STEP DISTANCES TO MAKE SURE IT IS LESS THAN OR EQUAL TO .3!**

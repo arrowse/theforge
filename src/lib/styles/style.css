@@ -2,134 +2,139 @@
 @import url('https://unpkg.com/@catppuccin/palette/css/catppuccin.css');
 
 body {
-	background-color: #11111b;
-	color: var(--ctp-mocha-text);
-	font-family: 'EB Garamond', serif;
-	overflow-x: clip;
+    background-color: #11111b;
+    color: var(--ctp-mocha-text);
+    font-family: 'EB Garamond', serif;
+    overflow-x: clip;
 }
 
 button {
-	font-family: 'EB Garamond', serif;
-	font-size: 1.4rem;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.4rem;
 }
 
 img {
-	width: 100%;
-	height: auto;
-	object-fit: contain;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
 }
 
 p {
-	font-size: 1.4rem;
-	line-height: 1.5;
-	margin-top: 0.5em;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    margin-top: 0.5em;
 }
 
 article li {
-	font-size: 1.4em;
-	margin-top: 0.5em;
+    font-size: 1.4em;
+    margin-top: 0.5em;
 }
 
 a {
-	color: var(--ctp-frappe-blue);
-	text-decoration: underline;
-	font-size: 1.4rem;
-	line-height: 1.5;
-	margin-top: 0.5em;
+    color: var(--ctp-frappe-blue);
+    text-decoration: underline;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    margin-top: 0.5em;
 }
 
 a:hover {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 h1 {
-	font-size: 3em;
-	margin-left: 0;
+    font-size: 3em;
+    margin-left: 0;
 }
 
 h2 {
-	font-size: 2.5em;
+    font-size: 2.5em;
 }
 
 h3 {
-	font-size: 1.8em;
-	margin: 0.75em 0 0.75em;
+    font-size: 1.8em;
+    margin: 0.75em 0 0.75em;
 }
 
 hr {
-	margin: 2em 0 2em 0;
+    margin: 2em 0 2em 0;
 }
 
 .posts {
-	padding: 0.5em;
+    padding: 0.5em;
 }
 
 .title {
-	font-size: 2em;
-	font-weight: bold;
+    font-size: 2em;
+    font-weight: bold;
 }
 
 .date {
-	font-size: 1em;
-	font-style: italic;
+    font-size: 1em;
+    font-style: italic;
 }
 
 .description {
-	font-size: 1.5em;
+    font-size: 1.5em;
 }
 
 .footer {
-	height: 10vh;
-	border-top: 1px solid #494d64;
-	transition: all ease-in-out 100ms;
+    height: 10vh;
+    border-top: 1px solid #494d64;
+    transition: all ease-in-out 100ms;
 }
+
 .footer:hover {
-	height:10vh;
-	border-top: 0 solid #494d64
+    height: 10vh;
+    border-top: 0 solid #494d64
 }
+
 a:hover {
-	text-decoration: underline;
+    text-decoration: underline;
+}
+
+.tall {
+    max-height: 25em;
 }
 
 .mainContent {
-	height: 100vh;
-	max-width: 60em;
-	margin: 0 auto;
+    height: 100vh;
+    max-width: 50em;
+    margin: 0 auto;
 }
 
 @media (min-width: 720px) {
-	.mainContent {
-		width: 80%;
-	}
+    .mainContent {
+        width: 80%;
+    }
 }
 
 .alogo {
-	width: 100%;
-	max-width: 9em;
-	margin: 4em 0 0 0;
-	clip-path: inset(15% 10% 10% 20%);
-	transform: translateX(-30px);
+    width: 100%;
+    max-width: 9em;
+    margin: 4em 0 0 0;
+    transform: translateX(-30px);
 }
 
 h1 {
-	margin: 0;
+    margin: 0;
 }
 
 .no-animation * {
-	animation: none !important;
-	transition: none !important;
+    animation: none !important;
+    transition: none !important;
 }
 
 .small-image {
-	max-width: 40em;
+    max-width: 40em;
 }
 
 @media (min-width: 840px) {
-	.headertextcontainer h1 {
-		white-space: nowrap;
-	}
+    .headertextcontainer h1 {
+        white-space: nowrap;
+    }
 }
 
 .footer {
-	height: 10vh;
+    height: 10vh;
 }
