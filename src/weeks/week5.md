@@ -44,3 +44,5 @@ After that, all I needed was a piece of paper and to open up a serial monitor on
 ## Tada!
 
 <img src="https://lh3.googleusercontent.com/pw/AP1GczOOfbz291LlhCdliMXPtA26WN7DcEGUvHZFb0cAyhfs-58PBQszJ5w_7R0acErDGZBk85Rp2pDkejD_D8bWM2--PUqhBJirDE7bopFL1JAk_BeFlVO_t7rUqALIY4KYN3KVQS9N4hNTGsdCKo2B4wWxQA=w230-h410-s-no" class="tall" alt="Final result being demonstrated on a laptop" />
+
+<br/><br/><br/>

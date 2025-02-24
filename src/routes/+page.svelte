@@ -1,15 +1,18 @@
 <script lang="ts">
 	import aimg from '$lib/images/a.png';
-	import { fxCheck } from '$lib/stores';
+	import { fxCheck, firstLoad } from '$lib/stores';
 
-	import { formatDate } from '$lib/utils';
-	import { draw } from 'svelte/transition';
+	import { onDestroy, onMount } from 'svelte';
 	// import * as config from '$lib/config'
 
 	export let data;
-
+	let show = false;
 	let animationsDisabled = '';
-	$: animationsDisabled = $fxCheck ? '' : 'no-animation';
+	$: animationsDisabled = $fxCheck && $firstLoad ? '' : 'no-animation';
+
+	onDestroy(() => {
+		$firstLoad = false;
+	})
 </script>
 <svelte:head>
 	<title>Autumns's Forge</title>
@@ -17,18 +20,19 @@
 </svelte:head>
 <html lang="en">
 <div class={animationsDisabled}>
-	{#if $fxCheck === true}
-		<div class="absolute puff-in-ver">
-			<div class="absolutegrid justify-center">
-				<div class="bg-shape1 bg-blue opacity-20 bg-blur" />
-				<div class="bg-shape2 bg-mauve opacity-20 bg-blur" />
-				<div class="bg-shape3 bg-blue opacity-20 bg-blur" />
-				<div class="bg-shape4 bg-sapphire opacity-20 bg-blur" />
-				<div class="bg-shape5 bg-lavender opacity-20 bg-blur" />
-				<div class="bg-shape6 bg-sky opacity-20 bg-blur" />
-			</div>
+{#if $fxCheck === true}
+	<div class="absolute puff-in-ver">
+		<div class="absolutegrid justify-center">
+			<div class="bg-shape1 bg-blue opacity-20 bg-blur" />
+			<div class="bg-shape2 bg-mauve opacity-20 bg-blur" />
+			<div class="bg-shape3 bg-blue opacity-20 bg-blur" />
+			<div class="bg-shape4 bg-sapphire opacity-20 bg-blur" />
+			<div class="bg-shape5 bg-lavender opacity-20 bg-blur" />
+			<div class="bg-shape6 bg-sky opacity-20 bg-blur" />
 		</div>
-	{/if}
+	</div>
+{/if}
+
 
 	<div class="mainContent">
 		<div class="page">

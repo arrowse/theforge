@@ -15,3 +15,5 @@ function createFxCheck(initialToggle: boolean) {
 }
 
 export const fxCheck = createFxCheck(true);
+
+export let firstLoad = writable(true);
