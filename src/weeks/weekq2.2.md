@@ -13,10 +13,10 @@ By turning it into chocolate of course. But Ice is easier to clean, so we'll sta
 ### Step 1. Trick the professor into 3d scanning his face
 
 I asked him politely if I could scan his face for a random and unrelated project, not at all connected to the
-molding assignment. Little did he know... I used an advanced technique called lying.. IT WAS FOR MOLDING AND CASTING
+molding assignment. Little did he know... I used an advanced technique called lying... IT WAS FOR MOLDING AND CASTING
 ASSIGNMENT! AH HA HA HA HA
 
-He actually volunteered to do so himself when he had some time free, which was very kind and helpful.
+He actually volunteered to do so himself when he had some free time, which was very kind and helpful.
 
 ### Step 2. Make a positive wax mold
 
@@ -47,7 +47,7 @@ For the machine to do anything with the work we put in so far, we need to create
 connect the dots. **VCarve**, loaded on the shop PC at the back of the IRL, has all the bits and data needed to do just that.
 
 First I measured the wax block to get an idea of how much space I have to work with, then imported the 3D model and set
-the dimensions accordingly. **Always remember to measure your bit length and never drill deeper than your bit!**
+the dimensions accordingly. **Always remember to measure your bit length and never drill deeper than your bit can reach!**
 
 ![Vcarve settings 1](https://lh3.googleusercontent.com/pw/AP1GczM378qf9smQuUy46_8EfkFIzbPkygIhXsxM6doD-3mcYscMk640O7sV2TO5sVT3Q4OCeq0llo_O4ohCrHFRmYmmLylaNBz4LiTEJo5rv7mF_NsUn_7bNXNVl1HTrWcyM4jRSP3ESAlys74s3ckLzF0j_A=w1384-h757-s-no)
 ![Vcarve settings 2](https://lh3.googleusercontent.com/pw/AP1GczNGEulKWPQVrnLa9KZGwS9CTf43MccIPe22Ga_cx4JdJF-SfAv7UqG_gK6jpDtj4qMh6ooWAqYp5S4NMBQ3PhV0FZ_QbUDZTSsrsAw-q-FcvdMksEOoJi46hGb0Ei4BHu-WfuOW3wsOX5vGsKALwEzhNA=w1382-h746-s-no)
@@ -76,7 +76,7 @@ After filling the tray with water and leaving it overnight in the fridge, we had
 Trolling completed successfully.
 
 <div style="display: grid; grid-auto-flow: column;">
-    <div><img src="https://lh3.googleusercontent.com/pw/AP1GczM_kBWbg8yifcDsW0zEswSbZ8_8T45bwX22R1mhAR2iyEcEjB7NK67zPP_jWRPpIOb9c7L0BZOzkLW1wKeug8SV6S-Nj0w_bSFxpjN6od3rb9ZUiXWjKLGTSxELI4kbDRHu9BUkDYSOtWtJab03J0EOpA=w1074-h1908-s-no" class='tall' alt='David with his ice cube'/>
-    </div><div><img src="https://lh3.googleusercontent.com/pw/AP1GczPHxBJGmTnfezpR7xEuU2KblDR2PhwNbUztWx3gGQ5OvTZNWpe978dvJBqV-ADbRZ81l-ocM9htE3XKyWu_c3uh3KV8tiQ-SLREjOrfPH_TseOi2YeQSSvkfO6LQe3cuyJI40NOvfRkk0UoQZgVHq2pnA=w1074-h1908-s-no" class="tall" alt="David ice cube">
+    <div><img src="https://lh3.googleusercontent.com/pw/AP1GczPHxBJGmTnfezpR7xEuU2KblDR2PhwNbUztWx3gGQ5OvTZNWpe978dvJBqV-ADbRZ81l-ocM9htE3XKyWu_c3uh3KV8tiQ-SLREjOrfPH_TseOi2YeQSSvkfO6LQe3cuyJI40NOvfRkk0UoQZgVHq2pnA=w1074-h1908-s-no" class="tall" alt="David ice cube">
+    </div><div><img src="https://lh3.googleusercontent.com/pw/AP1GczM_kBWbg8yifcDsW0zEswSbZ8_8T45bwX22R1mhAR2iyEcEjB7NK67zPP_jWRPpIOb9c7L0BZOzkLW1wKeug8SV6S-Nj0w_bSFxpjN6od3rb9ZUiXWjKLGTSxELI4kbDRHu9BUkDYSOtWtJab03J0EOpA=w1074-h1908-s-no" class='tall' alt='David with his ice cube'/>
 </div></div>
 

@@ -82,7 +82,7 @@ so that it works on a greater variety of desks, but for now the design works gre
 [CAD File for download](https://drive.google.com/file/d/1oHryPArWy3lYoPmf-XtCJmhurPhl9GXL/view?usp=sharing) (don't
 forget to scale it up by 5.5% in your slicing software before 3d printing it!)
 
-![Router GIF](https://lh3.googleusercontent.com/pw/AP1GczMUgSOJVqhCY0jSt_LdpcHhachDZwQfjqbzZHFWOU93_Ek4-juQLA5RGwxn-CDXpqKDzE0e2eDLWxwo0tCJU_2un0XbxMS-LcGkX3QQdn7Ty51fsNwnhfMazTJfuUZyQjWKePrVbI_mqCPA8U6z5j9LLA=w1260-h708-s-no)DDD
+![Router GIF](https://lh3.googleusercontent.com/pw/AP1GczMUgSOJVqhCY0jSt_LdpcHhachDZwQfjqbzZHFWOU93_Ek4-juQLA5RGwxn-CDXpqKDzE0e2eDLWxwo0tCJU_2un0XbxMS-LcGkX3QQdn7Ty51fsNwnhfMazTJfuUZyQjWKePrVbI_mqCPA8U6z5j9LLA=w1260-h708-s-no)
 
 <style>
 .tiny {width: 75px; margin: 10% auto 10% 42.5%;}

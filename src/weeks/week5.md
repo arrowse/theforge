@@ -36,8 +36,10 @@ If you'd like to learn more about this process, I have an article documenting it
 
 ## Firmware
 
-Since I was focused on getting a minimal viable product out, I installed [MicroPython](https://micropython.org/) and pulled [firmware](https://academy.cba.mit.edu/classes/input_devices/step/RP2040/hello.steptime1.RP2040) from the original hello.steptime board
- to give it a test. A few of the pins were unresponsive, so I tweaked the settings until I got a working instance.
+Since I was focused on getting a minimal viable product out, I installed [MicroPython](https://micropython.org/) and
+pulled [firmware](https://academy.cba.mit.edu/classes/input_devices/step/RP2040/hello.steptime1.RP2040) from the
+original hello.steptime board
+to give it a test. A few of the pins were unresponsive, so I tweaked the settings until I got a working instance.
 
 After that, all I needed was a piece of paper and to open up a serial monitor on my laptop.
 
