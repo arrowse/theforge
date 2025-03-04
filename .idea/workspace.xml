@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50a45f21-7ee0-45b7-b88f-8519ca403abf" name="Changes" comment="update articles">
-      <change afterPath="$PROJECT_DIR$/src/weeks/weekq2.4.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/weeks/weekq2.8.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weeks/Week2.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/weeks/Week2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weeks/week5.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/weeks/week5.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weeks/week6.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weeks/weekq2.2.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/weeks/weekq2.2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weeks/weekq2.3team.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/weeks/weekq2.6.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weeks/weekq2.5.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/weeks/weekq2.5.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/weeks/Week2.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/weeks/weekq2.0.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/weeks/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/weeks/week4.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/weeks/week4.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/weeks/week5.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/weeks/weekq2.3.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/weeks/weekq2.4.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/weeks/weekq2.4.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/weeks/weekq2.7.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/weeks/weekq2.7.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +83,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "/home/ari/WebstormProjects/atrium",
+    "last_opened_file_path": "/home/ari/WebstormProjects/theforge/src/weeks",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "pnpm",
@@ -97,9 +96,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/weeks" />
       <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/images" />
-      <recent name="$PROJECT_DIR$/src/weeks" />
       <recent name="$PROJECT_DIR$/src/lib/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -210,7 +209,8 @@
       <workItem from="1739349163447" duration="13763000" />
       <workItem from="1739894382325" duration="16956000" />
       <workItem from="1740079949310" duration="9844000" />
-      <workItem from="1740417212755" duration="12125000" />
+      <workItem from="1740417212755" duration="16541000" />
+      <workItem from="1741011345969" duration="9311000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit wow">
       <option name="closed" value="true" />

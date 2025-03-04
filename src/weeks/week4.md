@@ -57,7 +57,8 @@ You'll handle these first, so here's how you start!
 ![Vector cut dropdown](https://lh3.googleusercontent.com/pw/AP1GczOIHkpVCmRKSH_fwlSwv_VF6FZ7DZB_Y3FFpSnSfPa3dkgZa1B9ME9j5Fz_ciwEAEml5wk54FNfpe-KTscDb76M12ZOs5QvizyuRaC15-hQhnD8dkvx-hHZin6ahWS5r83vkm9xO55HMsEFtRh7pcOnOQ=w1370-h778-s-no)
 
 4. To set up pads, select the F_cu.gbr_pad layer and add a vector pocket operation from the same menu, then set the end
-   depth to 0.2mm with the same 30° engraving tool to ensure only the top layer of copper is removed. <u>Do not enable ramping!</u>
+   depth to 0.2mm with the same 30° engraving tool to ensure only the top layer of copper is removed. <u>Do not enable
+   ramping!</u>
 
 **If you want to keep your board simple, follow steps 5-7 to finish preparing files! To add a soldermask and silkscreen,
 skip step 6 and follow steps 5 & 7 to export your first of three jobs.**
@@ -163,9 +164,9 @@ Create a new vector pocket operation with the pad scrape tool and set the end de
 ensure just the
 paint
 is removed keeping the pads in-tact. **DOUBLE-CHECK YOUR STEP DISTANCES TO MAKE SURE IT IS LESS THAN OR EQUAL TO .3!**
-You should now be all set and ready to solder your parts on! Congrats! 
+You should now be all set and ready to solder your parts on! Congrats!
 
-**I cover soldering in the [Step Response PCB article posted after this one](/week5), if you'd like
+**I cover soldering in the [Step Response PCB article posted after this one](/weekq2.3), if you'd like
 to learn about that feel free to give it a read!**
 
 ![Final board photo](https://lh3.googleusercontent.com/pw/AP1GczMUcjPiwhthprKA-EIosKDbTtnB9YTmdy14jGqinduMzPcNTtIBTFQHD9NMKToMZpULdSbA3W7A96ik9rq8pqekcD19mKHQpKHm0-h3RiuQHwhQxVhCEiFcFgrOQHwmF7D66122UF6QmMHMXfEO70tEjw=w1512-h850-s-no)

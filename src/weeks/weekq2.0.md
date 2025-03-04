@@ -1,5 +1,5 @@
 ---
-title: 1.2 - Cable router
+title: 2.0 - Cable router
 description: Intro to FreeCAD and snap fit designs
 published: true
 ---
@@ -7,7 +7,7 @@ published: true
 <script>
 import buzzerSound from '$lib/buzzer.mp3';
 import buzzericon from '$lib/buzzerimg.png';
-let buzzer = new Audio(buzzerSound)
+let buzzer = new Audio(buzzerSound);
 </script>
 
 Cable management, the art of things looking neat and organized... at least from your perspective.
@@ -40,8 +40,8 @@ to move cables as you please, while keeping them neat and orderly.
 The design genuinely is simple- it took about an hour to create the first draft, but in my classic era of 'guess the
 measurements and fix it later' I ended up with more fixing and less doing. So, here's each iteration of the design.
 
-
 **First design**
+
 1. Combine the letters J and T in CAD to fit a desk
 2. Add holes for cables off the back side of it
 5. Add a bar with tabs to hold cables from the top so they don't just fall down
@@ -58,10 +58,10 @@ Cables don't fit, and it can't fit on the desk so.. uh.. just make the whole thi
 
 <img class='tiny' src={buzzericon} on:click={() => {buzzer.play()}}/>
 
-
 that did not in fact work so.. Redesign time!
 
 **Final Design**
+
 1. Combine the letters J and T in CAD to fit a desk
 2. Add a routed square hole to run cables through
 3. Add two tabs on either side of the router to allow a snap fit cover to hold cables in place
@@ -76,7 +76,9 @@ boom.
 
 And there you have it. A made up solution to a made up problem. For future iterations, I am absolutely adding a screw to
 the bottom
-so that it works on a greater variety of desks, but for now the design works great and it was a great introduction to CAD.
+so that it works on a greater variety of desks, but for now the design works great and it was a great introduction to
+CAD.
+
 ### It's dangerous to go alone! Take this!
 
 [CAD File for download](https://drive.google.com/file/d/1oHryPArWy3lYoPmf-XtCJmhurPhl9GXL/view?usp=sharing) (don't

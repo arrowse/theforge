@@ -1,6 +1,6 @@
 ---
-title: 2.5 - Translation Tear down
-description: Breaking down a real time translation device to learn about it
+title: 2.7 - Translation Pen Tear down
+description: Technically, it's not entirely dead... yet...
 published: false
 ---
 
