@@ -4,9 +4,8 @@ description: We do a little arts and crafts
 published: true
 ---
 
-I have a tendency to work on projects with frameworks I'm already familiar with rather than breaking into new territory,
-early on in my brainstorming process I found many of the ideas I was coming up with were overly focused on software, so
-to push myself I decided to limit myself to a mechanical public art display.
+Throughout the brainstorming process, I noticed that most of my ideas were overly software-centric.
+To break out of this shell I decided to start from a physical project and add electronics in later, focusing more on the artistic aspects and mechanical execution and less on what I'm already fammiliar with.
 
 Given my love for sea life, what better than jellyfish?
 
@@ -26,17 +25,21 @@ With the help of a few friends, we painted and cut coffee filters to create the 
 ![Jellyfish painted](https://lh3.googleusercontent.com/pw/AP1GczNoSkmlX3Xgab30CtiYNIlKloKylvm-G01LxGkASlPGF06ckobLZxA__STbaxavRMeb2p0Y-UdWpYtmOQe6yzH5TzYR93U0-1aEURpRlbUE_KwY_XmOTIvyoJRZ_ub7b8J19mhN_fyahAi-nojlZ25AMw=w1512-h850-s-no)
 <img src="https://lh3.googleusercontent.com/pw/AP1GczOReYyqgpanDU4RQ8JjxhfMYU5SARe-02jg5JPjIlXHseaaI3uCQEnxpWsT01zofG3DuUQaZujU8OeV_tIw-krYEUaij-WQD32Bbp9RkuaPPog5JzVRoQuzLVCzLNtU4f6TiSPzTdc8Xt6U5VWADtOlnw=w478-h850-s-no" alt="acrylic tower" class="tall"/>
 
-Moving forward, I would like to design a new motor layout to create a bit more movement. While I've worked with servos
-so far, I might
-take another stab at using stepper motors, which have proven to be a challenge so far.
-
-For now though, the Servo works, and I have an LED turning on and off in sync with it!
+With everything wired up, the servo works, and I have an LED turning on and off in sync with it!
 
 ![Led working w/ motor](https://lh3.googleusercontent.com/pw/AP1GczM274Ov4IfHSICMkc9VPIxWSu53eV45qe5PtHX8VBwZLFW-yrf8UtnGH86VBhx25AXQOK0E6lG52aKaMSpmAv0cqAsh8coyMLON0GMlYOwQTChdKlUhi8om9fr3y5p9123ni9y1dKcNBxWwV5MwPmm-cA=w800-h450-s-no)
 
-All I need to do now is thread the LED into the head and hang it up!
+To add easy remote control and streamline things, I decided to mount it to an ESP8266 on a stock PCB, and also added in
+an LED with connections up to the board!
+
+Tadaaaaa-
+
+<div style="display: grid; grid-auto-flow: column;">
+    <div><img src="https://lh3.googleusercontent.com/pw/AP1GczM0gnk5V4BVXnN__c5iecA0p3sg0_ZbMswIbSK6zPda-NYT9RkWTrRiCdcNnTTevktBsr52VuEK3z7dkoc8tmxKAW_crIEXxKshsUmsIpbKqPnbcPqDsWh6v817TBX_VGErYLFpDBrJ6Xy-Iy2YVY4pOA=w452-h804-s-no" class="tall" alt="Jellyfish final design">
+    </div><div><img src="https://lh3.googleusercontent.com/pw/AP1GczO5Pan4EwHjwSe2-S2eF_-s0t2JaFamAJUM0D4Y8x9CY7PrKVc6Jaieledsc7u9yMALHaKVrk4vqW2GnVWxNbNZLLKUWN4GwGI_iP49_FD3gZNqkCT-9yJl-QyrX9Fz4U67OSF1IS-PjGApW38iE18IHw=w452-h804-s-no" class='tall' alt='Jellyfish controller'/>
+</div></div>
 
 ### Up next:
 
-For this next week, I'll create a larger display hanging from a wooden frame to welcome people to the classroom.
-If that goes well, hopefully I can create a larger display to hang in the back room!
+Moving forward, I might look into a different motor gear layout, or look into switching to stepper motors, but for now
+this works well! I just need to scale things up a bit and make a larger frame

@@ -101,13 +101,13 @@ Cloudflare.
 ### The silly
 
 Having a link shortener is nice, but it's a little too generic. So, to really distinguish my resume, I embarked
-on a journey to make something truly great. Balls.bio. A link lengthened. Why? Why not? The domain isn't being used
-for anything and the aura of sending someone a 1400+ character link starting with "balls.bio" has an unmatched aura.
+on a journey to make something truly great. Balls.bio. A link lengthener. Why? Why not? The domain isn't being used
+for anything and the aura of sending someone a 1400+ character link starting with "balls.bio" is unmatched.
 
 So, I forked Lumi, removed the ability to pick a link manually so it instead throws a redirect at random to one of the
-links you've specified, and set it to generate comically long links using UUID generation.
+links you've specified, and substantially increased the link length.
 
-Yes, both of them use the same Firestore backend. Why work smarter when you can work smarter? Wait a minute.
+Yes, both of them use the same Firestore backend. Why work smarter when you can less work more do get thing done? Wait a minute.
 
 I hope you enjoy both my [link shortener](https://lumi.ink) and [link extender](https://balls.bio) :)
 

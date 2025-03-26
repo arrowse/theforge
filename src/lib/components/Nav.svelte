@@ -21,8 +21,8 @@
 	<div class="buttons">
 		<!--        <a href="https://autumn.onl">[main site]</a>-->
 		<button class={toggleButtonState} on:click={() => fxCheck.toggle()}
-		>VFX: {$fxCheck ? 'ON' : 'OFF'}</button
-		>
+		>VFX: {$fxCheck ? 'ON' : 'OFF'}</button>
+
 	</div>
 </div>
 
